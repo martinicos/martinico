@@ -4,7 +4,7 @@ btn.innerHTML = "Contáctame!";
 
 // agrega un evento para abrir el correo electrónico al hacer clic en el botón
 btn.addEventListener("click", function() {
-  window.location.href = "mailto:hermida.martin@gmail.com";
+  window.location.href = "mailto:johndoe@example.com";
 });
 
 // agrega el botón al documento HTML
