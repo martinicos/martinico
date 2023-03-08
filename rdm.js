@@ -4,5 +4,5 @@ var informacion = document.getElementById("informacion");
 
 // Escucha el evento "clic" en la imagen y muestra la información
 imagen.addEventListener("click", function() {
-  informacion.innerHTML = "Información adicional sobre la imagen";
+  informacion.innerHTML = "mail: hermida.martin@gmail.com";
 });
