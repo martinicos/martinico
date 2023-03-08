@@ -1,3 +1,1 @@
-window.onload = function() {
-  alert("Bienvenido al sitio");
-};
+console.log("Hola, mundo!");
