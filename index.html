@@ -60,6 +60,15 @@
   </head>
   <body>
     <script src="tu-archivo-javascript.js"></script>
+    <button id="referencias">Referencias</button>
+	<script>
+		var boton = document.getElementById("referencias");
+		var referencia = "John es un excelente profesional! Tiene todas las herramientas para seguir creciendo! -Bill Gates";
+
+		boton.addEventListener("click", function() {
+			window.open("data:text/html;charset=UTF-8," + encodeURIComponent(referencia), "_blank");
+		});
+	</script>
   </body>
 </html>
  
