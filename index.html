@@ -60,15 +60,25 @@
   </head>
   <body>
     <script src="tu-archivo-javascript.js"></script>
-    <button id="referencias">Referencias</button>
-	<script>
-		var boton = document.getElementById("referencias");
-		var referencia = "John es un excelente profesional! Tiene todas las herramientas para seguir creciendo! -Bill Gates";
+    <h1>Referencias</h1>
+    <button id="referencias-btn">Referencias</button>
 
-		boton.addEventListener("click", function() {
-			window.open("data:text/html;charset=UTF-8," + encodeURIComponent(referencia), "_blank");
-		});
-	</script>
+    <script>
+      // Obtener el botón de referencia por su ID
+      const referenciasBtn = document.getElementById('referencias-btn');
+
+      // Agregar un escucha de evento al botón para mostrar la referencia
+      referenciasBtn.addEventListener('click', () => {
+        // Abre una nueva ventana para mostrar la referencia
+        const referenciaWindow = window.open('', '_blank');
+
+        // Crea el contenido de la referencia en una variable
+        const referencia = "John es un excelente profesional! Tiene todas las herramientas para seguir creciendo! - Bill Gates";
+
+        // Agrega el contenido de la referencia a la ventana
+        referenciaWindow.document.write(referencia);
+      });
+    </script>
   </body>
 </html>
  
