@@ -1,8 +1,13 @@
-bodbody {
+body {
   font-family: Arial, sans-serif;
   margin: 0;
 }
-
+{
+  // Background and text colors
+body {
+  background-color: $purple-color;
+  color: $orange-color;
+}
 header {
   background-color: #333;
   color: white;
@@ -12,10 +17,11 @@ header {
 header h1 {
   margin: 0;
 }
-// Colors
+{
+  // Colors
 $purple-color: #800080;
 $orange-color: #ffa500;
-
+}
 main {
   max-width: 800px;
   margin: 0 auto;
