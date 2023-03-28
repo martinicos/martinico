@@ -1,4 +1,4 @@
-body {
+bodbody {
   font-family: Arial, sans-serif;
   margin: 0;
 }
@@ -6,7 +6,7 @@ body {
 header {
   background-color: #333;
   color: white;
-  padding: 20px;
+  padding: 1.25em;
 }
 
 header h1 {
@@ -16,5 +16,5 @@ header h1 {
 main {
   max-width: 800px;
   margin: 0 auto;
-  padding:
-
+  padding: 1em;
+}
