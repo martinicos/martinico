@@ -18,9 +18,10 @@ header h1 {
   margin: 0;
 }
 {
-  // Colors
-$purple-color: #800080;
-$orange-color: #ffa500;
+// Background and text colors
+body {
+  background-color: $purple-color;
+  color: $orange-color;
 }
 main {
   max-width: 800px;
