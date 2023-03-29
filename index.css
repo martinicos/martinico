@@ -2,6 +2,16 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
 }
+/* Usar la tipografía Roboto para todo el texto */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Cambiar el color y el tamaño del ícono de GitHub */
+.fab.fa-github {
+  color: black;
+  font-size: 2rem;
+}
 {
   // Background and text colors
 body {
