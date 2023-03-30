@@ -3,14 +3,11 @@ body {
   margin: 0;
   .rojo {
   color: red;
-}
-}
-{
-  // Background and text colors
-body {
   background-color: $purple-color;
   color: $orange-color;
 }
+  body {
+  }
 header {
   background-color: #333;
   color: white;
